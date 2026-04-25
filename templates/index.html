@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Reporting Engine</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Smart Reporting Engine</h1>
+    <p>Turn raw data into actionable insights instantly</p>
+</header>
+
+<div class="card">
+
+    <form action="/upload" method="post" enctype="multipart/form-data" onsubmit="showLoader()">
+
+        <div class="drop-zone" id="dropZone">
+            <p>📂 Drag & Drop your file here</p>
+            <p>or</p>
+            <input type="file" name="file" id="fileInput" required>
+        </div>
+
+        <button type="submit">Generate Report</button>
+
+    </form>
+
+    <p id="loading">⏳ Processing your data...</p>
+
+</div>
+
+<script>
+function showLoader() {
+    document.getElementById("loading").style.display = "block";
+}
+</script>
+
+</body>
+</html>

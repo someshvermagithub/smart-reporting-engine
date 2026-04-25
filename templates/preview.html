@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<header>
+    <h1>📊 Report Dashboard</h1>
+</header>
+
+<div class="container">
+
+    <div class="section">
+        <h2>📌 Key Metrics</h2>
+        <div class="grid">
+            {% for k, v in kpis.items() %}
+            <div class="kpi-card">
+                <h3>{{k}}</h3>
+                <p>Mean: {{v.mean}}</p>
+                <p>Sum: {{v.sum}}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>💡 Insights</h2>
+        <ul>
+            {% for i in insights %}
+            <li>{{i}}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>📈 Visualizations</h2>
+        {% for chart in charts %}
+            <img src="/{{chart}}" class="chart">
+        {% endfor %}
+    </div>
+
+    <a href="/download">
+        <button class="download-btn">⬇️ Download Full Report</button>
+    </a>
+
+</div>
+
+</body>
+</html>
