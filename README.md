@@ -1,4 +1,5 @@
-# 🚀 Smart Reporting Engine *Work in Progress*
+# 🚀 Smart Reporting Engine                                              
+*Work in Progress*
 
 > Transform raw data into **actionable insights, dashboards, and automated reports** — in seconds.
 
