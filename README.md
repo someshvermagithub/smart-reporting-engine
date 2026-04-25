@@ -153,5 +153,4 @@ Beta Version Live
 
 Somesh Verma
 
-```markdown
-![Stars](https://img.shields.io/github/stars/yourusername/smart-reporting-engine?style=social)
+
