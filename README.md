@@ -2,12 +2,6 @@
 *Work in Progress*
 
 
-![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
-![Flask](https://img.shields.io/badge/Flask-Web%20App-black?logo=flask)
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-purple?logo=pandas)
-![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
-![Made By](https://img.shields.io/badge/Made%20By-Somesh%20Verma-orange)
 
 > Transform raw data into **actionable insights, dashboards, and automated reports** — in seconds.
 
@@ -158,3 +152,6 @@ Beta Version Live
 👨‍💻 Author
 
 Somesh Verma
+
+```markdown
+![Stars](https://img.shields.io/github/stars/yourusername/smart-reporting-engine?style=social)
