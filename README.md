@@ -105,7 +105,7 @@ User Upload → Data Loader → Data Cleaning → Analysis Engine → Visualizat
 ## 🚀 Getting Started (Local Setup)
 
 ```bash
-git clone https://github.com/yourusername/smart-reporting-engine.git
+git clone https://github.com/someshvermagithub/smart-reporting-engine.git
 cd smart-reporting-engine
 
 python -m venv venv
