@@ -158,4 +158,6 @@ Beta Version Live
 
 Somesh Verma
 
+![Views](https://komarev.com/ghpvc/?username=yourusername&repo=smart-reporting-engine)
+
 
