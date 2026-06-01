@@ -141,8 +141,7 @@ It says:
 - ✔ “Core features working” → confidence  
 - ✔ “In progress section” → shows roadmap  
 
-👉 Recruiters see:
-> “This guy is actively building something real”
+
 
 ---
 
